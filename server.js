@@ -4,7 +4,7 @@ const app = express();
 app.use(express.static("src"));
 
 app.get("/", (req, res) => {
-  res.sendFile("src/index.html", err => {
+  res.send("src", err => {
     if (err) console.log(err);
   });
 });
