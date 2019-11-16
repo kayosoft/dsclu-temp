@@ -30,5 +30,8 @@
     "gulp-imagemin": "^6.0.0",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-uglify-es": "^1.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
