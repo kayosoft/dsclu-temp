@@ -3,11 +3,7 @@ const app = express();
 
 app.use(express.static("src"));
 
-app.get("/", (req, res) => {
-  res.send("src", err => {
-    if (err) console.log(err);
-  });
-});
+/** Routes will go here */
 
 app.listen(process.env.PORT, () =>
   console.log(`App running on port ${process.env.PORT}`)
